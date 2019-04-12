@@ -1,0 +1,26 @@
+###Exercises
+
+###Questions
+
+>Why is the fs core module important for Node development?
+
+The `fs` module provides a lot of very useful functionality to access and interact with the file system. Developers can check if a file exists and access it, append data to a file, create new files, change permissions of files, change the owner of a file, copy a file, create a readable or writable file stream, create a new link to a file, create a new folder, create a temporary directory, set the file mode, read the contents of a directory, read the content of a file, resolve relative file path pointers to the full pather, rename a file, remove a folder, remove a file or link, watch or unwatch a file, change the timestamp of the file, and write data to a file.
+
+>What is the difference between sync and non-sync methods in the fs module?
+
+The `Sync` method means synchornous, or blocking, which means that your code runs in sequential order. That is, the program waits for the line of code to finish executing before moving on to the next line of code.
+
+The Asynchronous, or non-blocking version of these methods mean that your code does not wait for the current line to execute before moving on to ru nthe next line.
+
+>Why are modules used?
+
+Modules are libraries, mainly just pieces of code, that are imported into a file. Modules represent a certain part of your overall codebase which you want to keep together, but you also want to keep separated from the rest of your codebase so that things are cleanly separated. Just like we keep socks in one drawer and shirts in another, even if we combine both in a single outfit, they are kept in different parts of our codebase in different moduels to be combined into a coherent application.
+
+>Why are libraries such as fs used in Node programming?
+
+Libraries, also known as "modules" in Node.js, are used to create servers, read and write files, and access other JavaScript libraries.
+
+###Code Practice
+
+Create a Github repo called simple-http-node-server. Create an HTTP server on port 3000 with a request handler that creates a file named hello-world.txt. You will be using the fs module to do this. Write the content: "Hello to this great world" to the hello-world.txt file. Please submit your finished code in your submission.
+
