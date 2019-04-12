@@ -1,0 +1,22 @@
+{
+  "name": "homework",
+  "version": "1.0.0",
+  "description": "Create a simple HTTP node server",
+  "main": "simple-http-node-server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julesburn/simple-http-node-server.git"
+  },
+  "keywords": [
+    "homework"
+  ],
+  "author": "Christine",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/julesburn/simple-http-node-server/issues"
+  },
+  "homepage": "https://github.com/julesburn/simple-http-node-server#readme"
+}
