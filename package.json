@@ -2,7 +2,10 @@
   "name": "homework",
   "version": "1.0.0",
   "description": "Create a simple HTTP node server",
-  "main": "simple-http-node-server.js",
+  "main": "index.js",
+  "dependencies": {
+    "uuid": "^3.2.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
